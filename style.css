@@ -1,0 +1,126 @@
+/* Style général */
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #B6C5E6;
+    color: #334170;
+}
+
+/* Header */
+header {
+    background-color: #334170;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    height: 110px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce */
+
+}
+
+header .titre-principal {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: #F7D90D;
+    margin: 10px 0;
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #F7D90D;
+}
+
+/* Bannière */
+.banniere {
+    position: relative;
+    text-align: center;
+}
+
+.banniere img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+
+.banniere h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #334170;
+    font-family: 'Dancing Script', cursive;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+/* Présentation */
+.presentation {
+    padding: 40px;
+    text-align: center;
+}
+
+.presentation h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.presentation p {
+    margin: 10px 0;
+}
+
+/* Bouton */
+.btn {
+    background-color: #92C1A1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #F7D90D;
+    color: #334170;
+}
+
+/* Footer */
+footer {
+    background-color: #334170;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #F7D90D;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
