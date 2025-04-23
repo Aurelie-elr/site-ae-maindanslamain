@@ -1,0 +1,14 @@
+name: Force Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Trigger GitHub Pages rebuild
+        run: echo "Force rebuild"
